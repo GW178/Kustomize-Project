@@ -4,4 +4,4 @@ metadata:
   name: hello-world
   namespace: hello-world
 spec:
-  replicas: 2
+  replicas: 1
