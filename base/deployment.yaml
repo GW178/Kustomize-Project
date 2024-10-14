@@ -1,20 +1,20 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: try123
+  name: hello-world
   namespace: hello-world
 spec:
   replicas: 1
   selector:
     matchLabels:
-      app: try123
+      app: hello-world
   template:
     metadata:
       labels:
-        app: try123
+        app: hello-world
     spec:
       containers:
-      - name: try123
+      - name: hello-world
         image: k8s.gcr.io/echoserver:1.4
         ports:
         - containerPort: 8080

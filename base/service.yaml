@@ -5,7 +5,7 @@ metadata:
   namespace: hello-world
 spec:
   selector:
-    app: try123
+    app: hello-world
   ports:
     - protocol: TCP
       port: 80
